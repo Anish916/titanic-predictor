@@ -11,7 +11,7 @@ survival prediction notebook.
 | `app.py` | The Streamlit web app |
 | `model.joblib` | The trained model (created by `train_model.py`) |
 | `requirements.txt` | Python dependencies |
-| `train.csv` | Kaggle training data (you supply this) |
+| `train.csv` | Kaggle training data. Needed to retrain, and the app also reads it to show how many similar passengers back each estimate |
 
 ## Run locally
 
